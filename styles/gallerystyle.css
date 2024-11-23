@@ -1,0 +1,53 @@
+/* 我的相册 */
+#xiangce{
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    background-image: url(../images/奏.png);
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+}
+#xiangce nav a{
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    font: 500 30px "楷体";
+    border: 1px solid black;
+    text-decoration: none;
+}
+#xiangce nav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+nav{
+    margin: auto;
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+
+#animals{
+    position: relative;
+    left: 200px;
+    top: 250px;
+}
+#MC{
+    position: relative;
+    left: 450px;
+    top: 22px;
+}
+#scenes{
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+
+img:hover{
+    width: 200px;
+    height: auto;
+}
+
+img{
+    border: 1px solod black;
+    border-radius: 60px;
+}

@@ -1,0 +1,45 @@
+#index{
+    margin: auto;
+    width: 900px;
+    min-height: 900px;
+    background-image: url(../images/home_page.png);
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+}
+#index nav a{
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    font: 500 30px "楷体";
+    border: 1px solid black;
+    text-decoration: none;
+}
+#index nav a:hover{
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+    font: 500 30px "楷体";
+}
+nav{
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+
+/* 首页 */
+#homelist{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    font: 600 30px "宋体";
+    color:rgb(96, 123, 212);
+    position: relative;
+    top: 280px;
+    left: 120px;
+}
+#homelist li{
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+}

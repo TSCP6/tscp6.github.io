@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+</head>
+
+<link rel="stylesheet" href="../../styles/photo/animals.css">
+
+<body>
+    <div class="animals">
+        <div class="back">
+            <a href="../gallery.html">back</a>
+        </div>
+        <div class="animalsphoto">
+            <img src="../../images/gallery/animals/animals01.jpg" alt="animals">
+            <img src="../../images/gallery/animals/animals02.jpg" alt="animals">
+            <img src="../../images/gallery/animals/animals03.jpg" alt="animals">
+            <img src="../../images/gallery/animals/cutecat1.jpg" alt="animals">
+            <img src="../../images/gallery/animals/cutecat2.jpg" alt="animals">
+            <img src="../../images/gallery/animals/cutecat3.jpg" alt="animals">
+        </div>
+        <div class="modal" id="modal">
+            <img id="modalImg" src="" alt="Modal Image">
+        </div>
+        <script>
+            const images = document.querySelectorAll('.animalsphoto img');
+            const modal = document.getElementById('modal');
+            const modalImg = document.getElementById('modalImg');
+    
+            images.forEach(img => {
+                img.addEventListener('click', () => {
+                    modal.classList.add('show');
+                    modalImg.src = img.src;
+                });
+            });
+    
+            modal.addEventListener('click', () => {
+                modal.classList.remove('show');
+            });
+        </script>
+    </div>
+</body>
+</html>

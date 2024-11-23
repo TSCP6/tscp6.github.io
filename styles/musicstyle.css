@@ -1,0 +1,40 @@
+/* 音乐鉴赏 */
+#musicpage{
+    
+    margin: auto;
+    width: 900px;
+    min-height: 900px;
+    background-image: url(../images/music.png);
+    background-size: 900px 900px;
+    background-repeat: no-repeat;
+}
+#musicpage nav a{
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    font: 500 30px "楷体";
+    border: 1px solid black;
+    text-decoration: none;
+}
+#musicpage nav a:hover{
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+    font: 500 30px "楷体";
+}
+nav{
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+
+.pieces a img{
+    position: relative;
+    left: 20px;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+.pieces a img:hover{
+    width: 85px;
+    height: 85px;
+}

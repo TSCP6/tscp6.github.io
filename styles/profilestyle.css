@@ -1,0 +1,115 @@
+/* 个人简介 */
+#jianjie {
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    background-image: url(../images/profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+
+#jianjie nav a {
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+    font: 500 30px "楷体";
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+#jianjie nav a:hover {
+    text-decoration: none;
+    color: blue;
+    font: 500 30px "楷体";
+}
+
+nav {
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
+
+.personprofile {
+    position: relative;
+    top: 240px;
+    left: 80px;
+    border: 4px ridge black;
+    width: 400px;
+    height: 600px;
+    color: black;
+    text-indent: 2em;
+    font: 400 18px "楷体";
+    line-height: 30px;
+    text-align: left;
+}
+
+#person{
+    font: 30px "宋体";
+    text-indent: 0;
+}
+
+#personphoto img{
+    position: relative;
+    top: 10px;
+    left: -20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#GameList{
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(53, 53, 248);
+}
+
+.gameul{
+    font-size: 20px;
+    font-weight: 500;
+    height: 150px;
+    line-height: 35px;
+    list-style-type: none;
+}
+
+.gameul img{
+    margin-bottom: -2px;
+    margin-left: -12px;
+}
+
+.gameul a{
+    text-decoration: none;
+    color: black;
+}
+.gameul a:hover{
+    font-size: x-large;
+    color: red;
+}
+
+.gamelist{
+    position: relative;
+    top: -380px;
+    left: 560px;
+    height: 200px;
+    width: 300px;
+    border: 4px double gray;
+    border-radius: 20px;
+}
+
+.others{
+    text-indent: 2em;
+    margin-left: 10px;
+    text-align: left;
+    position: relative;
+    top: -370px;
+    left: 560px;
+    width: 260px;
+    height: 380px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+}
