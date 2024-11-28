@@ -4,7 +4,8 @@
     min-height: 900px;
     background-image: url(../images/home_page.png);
     background-size: 900px 900px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+    text-align: center;
 }
 #index nav a{
     margin-right: 10px;
@@ -23,23 +24,33 @@
 nav{
     position: relative;
     top: 160px;
-    left: 80px;
+    /* left: 80px; */
+    margin: auto;
+    text-align: center;
 }
 
 /* 首页 */
-#homelist{
+/* #homelist{
     list-style-type: none;
     border: 1px solid black;
     width: 600px;
     height: 400px;
-    font: 600 30px "宋体";
-    color:rgb(96, 123, 212);
+    font: 600 30px "宋体"; */
+    /* color:rgb(96, 123, 212);
     position: relative;
     top: 280px;
-    left: 120px;
+    margin: auto;
 }
 #homelist li{
     width: 600px;
     height: 100px;
     line-height: 100px;
+} */
+#backdorm{
+    margin: auto;
+    
+}
+
+.photo{
+    margin-top: 160px;
 }
